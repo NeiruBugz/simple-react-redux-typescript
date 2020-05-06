@@ -1,6 +1,5 @@
-import { ADD_TODO, CHECK_TODO, REMOVE_TODO } from "./actions";
-import { Todo } from "../../interfaces";
-import { Action } from "../../interfaces/action.common.interface";
+import { Todo, Action } from "../../interfaces";
+import { ADD_TODO, CHECK_TODO, REMOVE_TODO } from "./types";
 
 export const todosReducer = (state = [], action: Action) => {
   switch (action.type) {

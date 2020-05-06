@@ -1,7 +1,7 @@
 import React, { FC, useState } from "react";
 
 import { TodoItem } from "./TodoItem";
-import { Todo } from "../interfaces";
+import { Todo } from "../../../interfaces";
 
 import './Todos.css';
 
