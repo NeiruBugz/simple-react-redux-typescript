@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Todos from './TodosContainer';
+import Todos from './Todo/TodosContainer';
 
 import './App.css';
 

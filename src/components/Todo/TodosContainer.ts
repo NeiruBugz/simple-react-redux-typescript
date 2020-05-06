@@ -1,7 +1,7 @@
-import { Todos } from './Todos';
-import { connect } from "../utils/react-redux";
-import { Todo } from "../interfaces";
-import { addTodo, checkTodo, removeTodo } from "../store/todo/actions";
+import { Todos } from './components/Todos';
+import { connect } from "../../utils/react-redux";
+import { Todo } from "../../interfaces";
+import { addTodo, checkTodo, removeTodo } from "../../store/todo/actions";
 
 const mapStateToProps = (state: any) => ({
   todos: state,

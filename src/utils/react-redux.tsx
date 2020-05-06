@@ -1,5 +1,5 @@
 import React, { FC, useEffect, useState } from 'react';
-import { ConnectedComponentInterface, ProviderInterface } from "../interfaces/provider.interface";
+import { ConnectedComponentInterface, ProviderInterface } from "../interfaces";
 
 // @ts-ignore
 const Context = React.createContext();

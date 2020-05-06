@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { Todo } from "../interfaces";
+import { Todo } from "../../../interfaces";
 
 interface TodoItemProps extends Todo {
   check: (id: number) => void;
